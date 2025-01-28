@@ -1,0 +1,10 @@
+fastapi[standard]
+SQLAlchemy
+asyncpg
+pytest
+psycopg2-binary
+pre-commit
+isort
+flake8
+python-decouple
+alembic
