@@ -73,3 +73,39 @@ class APIEndpointDetail:
         tags=EndpointTag.sample_V0,
         path='/delete'
     )
+
+    user_get_v0 = Endpoint(
+        summary='User Get',
+        description='''
+        This is user get endpoint. It is used to get all the users.
+        ''',
+        tags=EndpointTag.user_V0,
+        path='/get'
+    )
+
+    user_add_v0 = Endpoint(
+        summary='User Add',
+        description='''
+        This is user add endpoint. It is used to add a new user.
+        ''',
+        tags=EndpointTag.user_V0,
+        path='/add'
+    )
+
+    user_update_v0 = Endpoint(
+        summary='User Update',
+        description='''
+        This is user update endpoint. It is used to update a user.
+        ''',
+        tags=EndpointTag.user_V0,
+        path='/update'
+    )
+
+    user_delete_v0 = Endpoint(
+        summary='User Delete',
+        description='''
+        This is user delete endpoint. It is used to delete a user.
+        ''',
+        tags=EndpointTag.user_V0,
+        path='/delete'
+    )
